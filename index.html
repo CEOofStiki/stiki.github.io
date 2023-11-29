@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stiki Electronics</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section.hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        section.about {
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+        }
+
+        section.services {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        section.products {
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+        }
+
+        section.why-choose {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        section.contact {
+            padding: 50px 20px;
+        }
+
+        /* Add more styles as needed */
+        section.employees {
+            background-color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .employee-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            max-width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Stiki Electronics</h1>
+        <p>Innovate Tomorrow, Design Today.</p>
+    </header>
+
+    <section class="hero">
+        <img src="stikielectronics.png" alt="Electronic Product Image">
+        <h2>Welcome to Stiki Electronics</h2>
+        <p>Where Innovation Meets Precision in Electrical Product Design and Manufacturing.</p>
+        <a href="#products" class="cta-button">Explore Our Products</a>
+    </section>
+
+    <section class="about">
+        <p>At Stiki Electronics, we are on a mission to redefine the landscape of electrical product design. With a commitment to innovation and a passion for precision, we bring your ideas to life.</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <p><b>Electrical Product Design:</b>
+Conceptualizing and designing innovative electrical products.
+Developing detailed product specifications and schematics.<p>
+<p><b>Product Manufacturing:</b>
+Precision manufacturing of electrical products with a focus on quality.
+Prototyping and testing to ensure product functionality and reliability.<p>
+<p><b>Software Integration:</b>
+
+Integrating software components into electrical products for enhanced functionality.
+Developing firmware and software solutions tailored to specific product requirements.<p>
+<p><b>UI/UX Design:</b>
+
+User interface (UI) and user experience (UX) design for intuitive and user-friendly product interfaces.
+Enhancing the overall usability and aesthetics of electronic devices.<p>
+<p><b>Innovation Consulting:</b>
+
+Providing strategic consulting services to foster innovation in product development.
+Offering insights into emerging technologies and market trends.<p>
+<p><b>Custom Electronics Solutions:</b>
+
+Tailoring electronic solutions to meet the unique needs of clients.
+Customizing existing products or creating entirely new solutions.<p>
+<p><b>Quality Assurance and Testing:</b>
+
+Implementing rigorous testing procedures to ensure the reliability and safety of electronic products.
+Conducting quality assurance checks throughout the manufacturing process.<p>
+<p><b>Product Launch Support:</b>
+
+Assisting in the planning and execution of product launches.
+Providing marketing and promotional support for new electronic products.<p>
+<p><b>Research and Development:</b>
+
+Investing in continuous research and development to stay at the forefront of technological advancements.
+Exploring new possibilities for electronic product innovation.<p></p>
+        <a href="#services" class="cta-button">Learn More About Our Services</a>
+    </section>
+
+    <section class="products" id="products">
+        <h2>Featured Products</h2>
+        <p>High-quality images of a few flagship electrical products with brief descriptions.</p>
+        <a href="#products" class="cta-button">View All Products</a>
+    </section>
+
+    <section class="why-choose">
+        <h2>Why Choose Stiki Electronics?</h2>
+        <ul>
+            <li>Innovative Design and Manufacturing</li>
+            <li>Precision and Quality Assurance</li>
+            <li>Client-Centric Approach</li>
+            <li>Proven Track Record of Success</li>
+        </ul>
+        <a href="#why-choose" class="cta-button">Discover Our Process</a>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Let's Discuss Your Project</h2>
+        <p>Ready to bring your electrical product idea to life? Contact us today, and let's embark on a journey of innovation together.</p>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Stiki Electronics. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Existing code above this line remains unchanged -->
+
+    <section class="employees">
+        <h2>Our Team</h2>
+
+        <div class="employee-card">
+            <img src="stigu.png" alt="OG1">
+            <h3>Nico Piispanen</h3>
+            <p>CEO</p>
+            <p>Email: nico.piispanen@stigi.com</p>
+        </div>
+
+        <div class="employee-card">
+            <img src="rigu.png" alt="OG2">
+            <h3>Roope Kirves</h3>
+            <p>Marketing Manager</p>
+            <p>Email: roope.kirves@stigi.com</p>
+        </div>
+
+        <div class="employee-card">
+            <img src="migu.png" alt="OG3">
+            <h3>Jere Järvinen</h3>
+            <p>Lead Product Designer</p>
+            <p>Email: jere.jarvinen@stiki.com</p>
+        </div>
+
+        <div class="employee-card">
+            <img src="valde.png" alt="OG4">
+            <h3>Valtteri Koivuniemi</h3>
+            <p>Lead Product Tester/Head of Security</p>
+            <p>Email: valtteri.koivuniemi@stiki.com</p>
+        </div>
+
+        <!-- Add more employee cards as needed -->
+
+    </section>
+
+    <!-- Existing code below this line remains unchanged -->
+
+</body>
+</html>
